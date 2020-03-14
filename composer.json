@@ -1,0 +1,19 @@
+{
+    "name": "aripdevel/first-package",
+    "description": "First Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tester\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aripdevel",
+            "email": "aripdevel@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
